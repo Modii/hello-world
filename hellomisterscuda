@@ -1,0 +1,11 @@
+function myFunction() {
+  var d = new Date();
+  var n = d.getHours();
+  if (hour > 18) {
+    document.getElementById("demo").innerHTML = n;
+    greeting = "Så det apex tid";
+  } else {
+    document.getElementById("demo").innerHTML = n;
+    greeting = "Det er ikke apex tid :("
+  }
+}
